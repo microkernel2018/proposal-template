@@ -1,0 +1,30 @@
+Microkernel2018
+===============
+
+A community project to develop a microkernel.
+
+Building
+========
+
+Before building, you need to export some environmental variables. Specifically:
+ $ export PATH="/path/to/cross/compiler:$PATH"
+ $ export CC="i386-elf-gcc"
+
+Then:
+ $ make          # Build all components and install them to a sysroot directory.
+ $ make iso      # Build an .iso image from the sysroot directory.
+ $ make run-qemu # Boot the .iso image using qemu-system-i386.
+
+Community
+=========
+
+Please join #microkernel2018 at irc.freenode.net
+
+Contributing
+============
+
+Everyone is welcome to contribute! Please find an issue or ask the community
+to suggest something for you to work on.
+
+We require contributors to create their own branches and submit pull requests.
+We do so in order to maintain code quality and a clean commit history.
